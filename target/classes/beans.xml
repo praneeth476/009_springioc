@@ -1,0 +1,12 @@
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation=" http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+<bean id="helloworld" class="model.HelloWorld">
+<property name="message" value="Hello World from Dependency Injection"/>
+</bean>
+
+  <bean id="student" class="model.Student">
+  <property name="rollno" value="1001"></property>
+  <property name="name" value="xxxxxxxx"></property>
+  <property name="department" value="CSE"></property>
+  <property name="cgpa" value="9.19"></property>
+  </bean>
+</beans>
